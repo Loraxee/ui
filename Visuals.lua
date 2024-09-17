@@ -25,9 +25,9 @@ local bones = {
 
 --// Settings
 local ESP_SETTINGS = {
-    BoxOutlineColor = getgenv().BoxColor,
-    BoxColor = getgenv().BoxColor,
-    NameColor = getgenv().NameColor,
+    BoxOutlineColor = Color3.new(0, 0, 0),
+    BoxColor = Color3.new(1, 1, 1),
+    NameColor = Color3.new(1, 1, 1),
     HealthOutlineColor = Color3.new(0, 0, 0),
     HealthHighColor = Color3.new(0, 1, 0),
     HealthLowColor = Color3.new(1, 0, 0),
@@ -42,8 +42,8 @@ local ESP_SETTINGS = {
     ShowDistance = false,
     ShowSkeletons = false,
     ShowTracer = false,
-    TracerColor = getgenv().TracerColor, 
-    TracerThickness = ESP.TracerThickness,
+    TracerColor = Color3.new(1, 1, 1), 
+    TracerThickness = 2,
     SkeletonsColor = Color3.new(1, 1, 1),
     TracerPosition = "Bottom",
 }
